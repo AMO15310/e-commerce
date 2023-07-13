@@ -11,6 +11,7 @@ import ProductPage from "../components/products/ProductPage";
 import Shop from "../components/products/Shop";
 import Cart from "../components/Cart/Cart";
 import CheckoutPayment from "../components/checkout/checkoutPayment";
+
 import Signup from "../components/auth/Signup";
 export const router = createBrowserRouter(
   createRoutesFromElements([
@@ -21,7 +22,7 @@ export const router = createBrowserRouter(
     <Route path="/shop" element={<Shop />} />,
     <Route path="/cart" element={<Cart />} />,
     <Route path="/checkout" element={<Checkout />} />,
-    <Route path="/checkout/payment" element={<CheckoutPayment />} />,
+    <Route path="/payment" element={<CheckoutPayment />} />,
     <Route path="/login" element={<Login />} />,
     <Route path="/signup" element={<Signup />} />,
   ])
