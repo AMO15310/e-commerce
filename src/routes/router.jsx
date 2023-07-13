@@ -14,6 +14,7 @@ import CheckoutPayment from "../components/checkout/checkoutPayment";
 import Signup from "../components/auth/Signup";
 export const router = createBrowserRouter(
   createRoutesFromElements([
+    <Route path="/" element={<LandingPage1 />} />,
     <Route path="/landingpage1" element={<LandingPage1 />} />,
     <Route path="/landingpage2" element={<LandingPage2 />} />,
     <Route path="/product" element={<ProductPage />} />,
