@@ -24,7 +24,6 @@ export const router = createBrowserRouter(
     <Route path="/checkout" element={<Checkout />} />,
     <Route path="/payment" element={<CheckoutPayment />} />,
     <Route path="/login" element={<Login />} />,
-
     <Route path="/signup" element={<Signup />} />,
   ])
 );
