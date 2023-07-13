@@ -10,7 +10,7 @@ import LandingPage2 from "../components/landing-page/LandingPage-2";
 import ProductPage from "../components/products/ProductPage";
 import Shop from "../components/products/Shop";
 import Cart from "../components/Cart/Cart";
-import CheckoutPayment from "../components/checkout/checkoutPayment";
+import CheckoutPayment from "../components/checkout/checkoutPayment.jsx";
 
 import Signup from "../components/auth/Signup";
 export const router = createBrowserRouter(
